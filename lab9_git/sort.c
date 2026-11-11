@@ -5,6 +5,7 @@ void sort(int a[], int n) {
                 int temp = a[j];
                 a[j] = a[j + 1];
                 a[j + 1] = temp;
+		printf("finish")
             }
         }
     }
