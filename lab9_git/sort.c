@@ -1,3 +1,5 @@
+#include <stdio.h>
+ 
 void sort(int a[], int n) {
     for (int i = 0; i < n - 1; ++i) {
         for (int j = 0; j < n - i - 1; ++j) {
@@ -5,8 +7,16 @@ void sort(int a[], int n) {
                 int temp = a[j];
                 a[j] = a[j + 1];
                 a[j + 1] = temp;
-		printf("finish")
             }
         }
     }
 }
+ 
+int main(void) {
+    int a[] = {4, 2, 0};
+    int n = (int)(sizeof(a) / sizeof(a[0]));
+    sort(a, n);
+	printf("hello git\n");
+    return 0;
+}
+
