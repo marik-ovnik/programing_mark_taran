@@ -16,6 +16,7 @@ int main(void) {
     int a[] = {4, 2, 0};
     int n = (int)(sizeof(a) / sizeof(a[0]));
     sort(a, n);
+	printf("hello git\n");
     return 0;
 }
 
